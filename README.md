@@ -388,7 +388,19 @@ servicio-mysql   NodePort    172.21.32.104    <none>        3306:
 
 En mi caso para ingresar debo acceder a http://184.172.233.164:30983/
 
+## Escalar nuestra app 
 
+
+Actualmente tenemos 3 réplicas de nuestro pod que fueron definidas a en el yaml. Ahora vemos como, una vez que ya tenemos nuestra aplicación desplegada en kubernetes podemos escalarla.
+
+
+kubectl proporciona un comando scale para cambiar el tamaño de un deployment existente. Aumentemos nuestra capacidad de tres instancias en ejecución a 10 instancias:
+
+
+```
+$ kubectl scale --replicas=5 deployment miapp
+```
+Kubernetes ahora intentará que la realidad coincida con el estado deseado de 5 réplicas al iniciar 9 pods nuevos con la misma configuración que el primero.
 
 
 
