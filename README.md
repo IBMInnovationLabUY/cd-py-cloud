@@ -331,7 +331,7 @@ OK
 ```
 
 
-## Desplegar la App en K8s
+## Desplegar la App en Kubernetes
 
 Ahora que tenemos nuestra imagen en el repositorio, vamos a utilizarla para desplegar nuestra app en nuestro cluster de Kubernetes. 
 
