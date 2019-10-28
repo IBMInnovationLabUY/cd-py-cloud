@@ -1,3 +1,3 @@
-# Cloud &amp; Data Paraguay - Hands-On Journey to Cloud
+# Cloud &amp; Data Paraguay - Journey to Cloud
 
 
