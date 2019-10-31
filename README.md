@@ -40,6 +40,7 @@ Al instalar la CLI de IBM Cloud, también se le instalará GIT por lo tanto pode
 $ git clone https://github.com/IBMInnovationLabUY/cd-py-cloud.git
 ```
 
+Tambien puede optar por descargar todo el material en una carpeta comprimida .zip, para lograrlo haga clic en el boton  verde que dice "Clone or download" o haga clic [aqui](https://github.com/IBMInnovationLabUY/cd-py-cloud/archive/master.zip)
 
 ## Comencemos!
 
@@ -186,7 +187,7 @@ Ahora creemos nuestra tabla para guardar los datos de los jugadores
  Database changed
  ```
  
-**Ejecutar el comando en el archivo mysql.txt**
+**Ejecutar el comando en el archivo mysql.txt** Para lograrlo copiemos y peguemos en la terminal el contenido de dicho archivo. 
 
 Listo! Ya está pronta nuestra base de datos en nuestro cluster de kubernetes!
 
